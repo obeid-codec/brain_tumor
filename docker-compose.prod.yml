@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  brain_tumor:
+    image: obeidcodec/brain_tumor:1
+    ports:
+      - 80:8501
+
+
+
+
+      
