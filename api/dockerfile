@@ -1,0 +1,7 @@
+FROM python:3.11.6
+WORKDIR /app
+COPY . .
+RUN  apt-get update && apt-get install ffmpeg libsm6 libxext6  -y ; pip install pipreqs  ; pipreqs ;pip3 install opencv-python ;pip install -r requirements.txt
+EXPOSE 8501
+ENTRYPOINT [ "streamlit" , "run" ]
+CMD [ "app.py" ]
