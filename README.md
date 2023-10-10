@@ -11,7 +11,7 @@ This project utilizes machine learning and convolutional neural networks (CNNs) 
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Prerequisites
 
